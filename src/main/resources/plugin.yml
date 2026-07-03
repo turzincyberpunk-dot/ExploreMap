@@ -1,0 +1,10 @@
+name: ExploreMap
+version: 1.0.0
+main: br.ronexus.exploremap.ExploreMap
+api-version: '1.21'
+author: Ronexus
+description: Mapa de exploracao com nevoa de guerra e cores por bioma.
+commands:
+  mapa:
+    description: Recebe seu mapa de exploracao
+    aliases: [map, explorar]
