@@ -1,0 +1,17 @@
+# Quantos blocos cada pixel do mapa representa (zoom).
+#  4  = mais detalhe, area menor (~512 blocos de lado)
+#  8  = equilibrado (~1024 blocos de lado)  [padrao]
+#  16 = visao ampla, menos detalhe (~2048 blocos de lado)
+blocks-per-pixel: 8
+
+# Raio (em chunks) marcado como explorado ao redor do jogador.
+explore-radius-chunks: 4
+
+# Cor (RGB) das areas ainda NAO exploradas (nevoa).
+fog-color:
+  r: 68
+  g: 72
+  b: 82
+
+# A cada quantos ticks o mapa pode ser redesenhado (throttle anti-lag). 20 = 1s.
+render-throttle-ticks: 12
